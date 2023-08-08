@@ -16224,3 +16224,29 @@ AssertionError
 2023-08-09 02:49:29,577:INFO:Calculating mean and std
 2023-08-09 02:49:29,642:INFO:Creating metrics dataframe
 2023-08-09 02:49:29,731:INFO:Finalizing model
+2023-08-09 02:54:53,870:INFO:Initializing blend_models()
+2023-08-09 02:54:53,870:INFO:blend_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001FF097C4DF0>, estimator_list=[ExtraTreesRegressor(n_jobs=-1, random_state=42), BaggingRegressor(estimator=RandomForestRegressor(n_jobs=-1, random_state=42),
+                 random_state=42)], fold=None, round=4, choose_better=False, optimize=R2, method=auto, weights=None, fit_kwargs=None, groups=None, probability_threshold=None, verbose=True, return_train_score=False)
+2023-08-09 02:54:53,870:INFO:Checking exceptions
+2023-08-09 02:54:53,976:INFO:Importing libraries
+2023-08-09 02:54:53,977:INFO:Copying training dataset
+2023-08-09 02:54:53,982:INFO:Getting model names
+2023-08-09 02:54:53,988:INFO:SubProcess create_model() called ==================================
+2023-08-09 02:54:53,996:INFO:Initializing create_model()
+2023-08-09 02:54:53,996:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001FF097C4DF0>, estimator=VotingRegressor(estimators=[('Extra Trees Regressor',
+                             ExtraTreesRegressor(n_jobs=-1, random_state=42)),
+                            ('Bagging Regressor',
+                             BaggingRegressor(estimator=RandomForestRegressor(n_jobs=-1,
+                                                                              random_state=42),
+                                              random_state=42))],
+                n_jobs=-1), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001FF5EEA8070>, model_only=True, return_train_score=False, kwargs={})
+2023-08-09 02:54:53,996:INFO:Checking exceptions
+2023-08-09 02:54:53,996:INFO:Importing libraries
+2023-08-09 02:54:53,996:INFO:Copying training dataset
+2023-08-09 02:54:54,064:INFO:Defining folds
+2023-08-09 02:54:54,064:INFO:Declaring metric variables
+2023-08-09 02:54:54,070:INFO:Importing untrained model
+2023-08-09 02:54:54,070:INFO:Declaring custom model
+2023-08-09 02:54:54,078:INFO:Voting Regressor Imported successfully
+2023-08-09 02:54:54,117:INFO:Starting cross validation
+2023-08-09 02:54:54,120:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
